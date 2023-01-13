@@ -1,0 +1,165 @@
+{
+    "questions": [{
+            "questionText": "What is an Angular?",
+            "options": [{
+                    "text": " javaScript FrameWork",
+                    "correct": true
+                },
+                {
+                    "text": "Tool"
+                },
+                {
+                    "text": "API"
+                },
+                {
+                    "text": "Programming language"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following is NOT a type used in TypeScript?",
+            "options": [{
+                    "text": "number"
+                },
+                {
+                    "text": "string"
+                },
+                {
+                    "text": "boolean"
+                },
+                {
+                    "text": "enum",
+                    "correct": true
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "SPA stands for ?",
+            "options": [{
+                    "text": "Specialized Professional Associations"
+                },
+                {
+                    "text": "Single Page Application",
+                    "correct": true
+                },
+                {
+                    "text": "School Planning Architecture"
+                },
+                {
+                    "text": "Single Point Accountability"
+                }
+            ],
+            "explanation": "spa stands for single page application"
+        },
+        {
+            "questionText": "Two way data binding is denoted by",
+            "options": [{
+                    "text": "{{}}"
+                },
+                {
+                    "text": "[()]",
+                    "correct": true
+                },
+                {
+                    "text": "()"
+                },
+                {
+                    "text": "[]"
+                }
+            ],
+            "explanation": "two way data binding is denoted by [()]"
+        },
+        {
+            "questionText": "NPM stands for",
+            "options": [{
+                    "text": "Node Package Manager",
+                    "correct": true
+                },
+                {
+                    "text": "Node Primary Mechanism"
+                },
+                {
+                    "text": "Node Public Member"
+                },
+                {
+                    "text": "Node Private Module "
+                }
+            ],
+            "explanation": "Npm stands for Node Package Manager "
+        },
+        {
+            "questionText": "Which is NOT an access modifier?",
+            "options": [{
+                    "text": "private"
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "async",
+                    "correct": true
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "Which is the command to run the  app in server?",
+            "options": [{
+                    "text": "run"
+                },
+                {
+                    "text": "ng serve",
+                    "correct": true
+                },
+                {
+                    "text": "ng run"
+                },
+                {
+                    "text": "ng start"
+                }
+            ],
+            "explanation": "ng serve is used to run the app"
+        },
+        {
+            "questionText": "Choose the right sign of decorator",
+            "options": [{
+                    "text": "@",
+                    "correct": true
+                },
+                {
+                    "text": "#"
+                },
+                {
+                    "text": "*"
+                },
+                {
+                    "text": "&"
+                }
+            ],
+            "explanation": "@ "
+        },
+        {
+            "questionText": "What is ngOnInit?",
+            "options": [{
+                    "text": "Lifecycle hook",
+                    "correct": true
+                },
+                {
+                    "text": "listener"
+                },
+                {
+                    "text": "Html template"
+                },
+                {
+                    "text": "code"
+                }
+            ],
+            "explanation": "ngOnInit is a lifecyle hook and a callback method that is run by Angular to indicate that a caomponent is created."
+        }
+    ]
+}

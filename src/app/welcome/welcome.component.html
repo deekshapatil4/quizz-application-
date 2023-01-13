@@ -1,0 +1,17 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">welcome to exam</h1>
+    <p class="col-md-8 fs-4">This Quizz will have 10 Questions</p>
+    <h1>For each question 10 points</h1>
+    <ol>
+        <li>Correct Answer gives 10 points</li>
+        <li>Incorrect Answer gives -10 points</li>
+    </ol>
+    <h3 style="text-align: center;">ALL THE BEST</h3>
+    <div class="name col-md-6 my-4">
+        <label for="">Enter your Name:</label>
+        <input #name type="text" class="form-control">
+       
+    </div>
+    <button class="btn btn-primary  btn-lg" routerLink="/question" (click)="startQuiz()">start the quiiz</button>
+
+</div>
